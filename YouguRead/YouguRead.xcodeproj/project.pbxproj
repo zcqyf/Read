@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82045D31F7279FA00C6E306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D82045D21F7279FA00C6E306 /* main.m */; };
+		D82045D61F7279FA00C6E306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82045D51F7279FA00C6E306 /* AppDelegate.m */; };
+		D82045D91F7279FA00C6E306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82045D81F7279FA00C6E306 /* ViewController.m */; };
+		D82045DC1F7279FA00C6E306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82045DA1F7279FA00C6E306 /* Main.storyboard */; };
+		D82045DE1F7279FA00C6E306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82045DD1F7279FA00C6E306 /* Assets.xcassets */; };
+		D82045E11F7279FA00C6E306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82045DF1F7279FA00C6E306 /* LaunchScreen.storyboard */; };
+		D82045EC1F7279FA00C6E306 /* YouguReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82045EB1F7279FA00C6E306 /* YouguReadTests.m */; };
+		D82045F71F7279FA00C6E306 /* YouguReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82045F61F7279FA00C6E306 /* YouguReadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D82045E81F7279FA00C6E306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82045C61F7279FA00C6E306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82045CD1F7279FA00C6E306;
+			remoteInfo = YouguRead;
+		};
+		D82045F31F7279FA00C6E306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D82045C61F7279FA00C6E306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D82045CD1F7279FA00C6E306;
+			remoteInfo = YouguRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D82045CE1F7279FA00C6E306 /* YouguRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouguRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82045D21F7279FA00C6E306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D82045D41F7279FA00C6E306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D82045D51F7279FA00C6E306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D82045D71F7279FA00C6E306 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D82045D81F7279FA00C6E306 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D82045DB1F7279FA00C6E306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82045DD1F7279FA00C6E306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D82045E01F7279FA00C6E306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D82045E21F7279FA00C6E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82045E71F7279FA00C6E306 /* YouguReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouguReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82045EB1F7279FA00C6E306 /* YouguReadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouguReadTests.m; sourceTree = "<group>"; };
+		D82045ED1F7279FA00C6E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82045F21F7279FA00C6E306 /* YouguReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouguReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82045F61F7279FA00C6E306 /* YouguReadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YouguReadUITests.m; sourceTree = "<group>"; };
+		D82045F81F7279FA00C6E306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82045CB1F7279FA00C6E306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82045E41F7279FA00C6E306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82045EF1F7279FA00C6E306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82045C51F7279FA00C6E306 = {
+			isa = PBXGroup;
+			children = (
+				D82045D01F7279FA00C6E306 /* YouguRead */,
+				D82045EA1F7279FA00C6E306 /* YouguReadTests */,
+				D82045F51F7279FA00C6E306 /* YouguReadUITests */,
+				D82045CF1F7279FA00C6E306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82045CF1F7279FA00C6E306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82045CE1F7279FA00C6E306 /* YouguRead.app */,
+				D82045E71F7279FA00C6E306 /* YouguReadTests.xctest */,
+				D82045F21F7279FA00C6E306 /* YouguReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82045D01F7279FA00C6E306 /* YouguRead */ = {
+			isa = PBXGroup;
+			children = (
+				D82045D41F7279FA00C6E306 /* AppDelegate.h */,
+				D82045D51F7279FA00C6E306 /* AppDelegate.m */,
+				D82045D71F7279FA00C6E306 /* ViewController.h */,
+				D82045D81F7279FA00C6E306 /* ViewController.m */,
+				D82045DA1F7279FA00C6E306 /* Main.storyboard */,
+				D82045DD1F7279FA00C6E306 /* Assets.xcassets */,
+				D82045DF1F7279FA00C6E306 /* LaunchScreen.storyboard */,
+				D82045E21F7279FA00C6E306 /* Info.plist */,
+				D82045D11F7279FA00C6E306 /* Supporting Files */,
+			);
+			path = YouguRead;
+			sourceTree = "<group>";
+		};
+		D82045D11F7279FA00C6E306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D82045D21F7279FA00C6E306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D82045EA1F7279FA00C6E306 /* YouguReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				D82045EB1F7279FA00C6E306 /* YouguReadTests.m */,
+				D82045ED1F7279FA00C6E306 /* Info.plist */,
+			);
+			path = YouguReadTests;
+			sourceTree = "<group>";
+		};
+		D82045F51F7279FA00C6E306 /* YouguReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D82045F61F7279FA00C6E306 /* YouguReadUITests.m */,
+				D82045F81F7279FA00C6E306 /* Info.plist */,
+			);
+			path = YouguReadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82045CD1F7279FA00C6E306 /* YouguRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82045FB1F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguRead" */;
+			buildPhases = (
+				D82045CA1F7279FA00C6E306 /* Sources */,
+				D82045CB1F7279FA00C6E306 /* Frameworks */,
+				D82045CC1F7279FA00C6E306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouguRead;
+			productName = YouguRead;
+			productReference = D82045CE1F7279FA00C6E306 /* YouguRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D82045E61F7279FA00C6E306 /* YouguReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82045FE1F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguReadTests" */;
+			buildPhases = (
+				D82045E31F7279FA00C6E306 /* Sources */,
+				D82045E41F7279FA00C6E306 /* Frameworks */,
+				D82045E51F7279FA00C6E306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82045E91F7279FA00C6E306 /* PBXTargetDependency */,
+			);
+			name = YouguReadTests;
+			productName = YouguReadTests;
+			productReference = D82045E71F7279FA00C6E306 /* YouguReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D82045F11F7279FA00C6E306 /* YouguReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82046011F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguReadUITests" */;
+			buildPhases = (
+				D82045EE1F7279FA00C6E306 /* Sources */,
+				D82045EF1F7279FA00C6E306 /* Frameworks */,
+				D82045F01F7279FA00C6E306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D82045F41F7279FA00C6E306 /* PBXTargetDependency */,
+			);
+			name = YouguReadUITests;
+			productName = YouguReadUITests;
+			productReference = D82045F21F7279FA00C6E306 /* YouguReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82045C61F7279FA00C6E306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YG;
+				TargetAttributes = {
+					D82045CD1F7279FA00C6E306 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U9RQC3AJ9J;
+						ProvisioningStyle = Automatic;
+					};
+					D82045E61F7279FA00C6E306 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U9RQC3AJ9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D82045CD1F7279FA00C6E306;
+					};
+					D82045F11F7279FA00C6E306 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = U9RQC3AJ9J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D82045CD1F7279FA00C6E306;
+					};
+				};
+			};
+			buildConfigurationList = D82045C91F7279FA00C6E306 /* Build configuration list for PBXProject "YouguRead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82045C51F7279FA00C6E306;
+			productRefGroup = D82045CF1F7279FA00C6E306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82045CD1F7279FA00C6E306 /* YouguRead */,
+				D82045E61F7279FA00C6E306 /* YouguReadTests */,
+				D82045F11F7279FA00C6E306 /* YouguReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82045CC1F7279FA00C6E306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82045E11F7279FA00C6E306 /* LaunchScreen.storyboard in Resources */,
+				D82045DE1F7279FA00C6E306 /* Assets.xcassets in Resources */,
+				D82045DC1F7279FA00C6E306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82045E51F7279FA00C6E306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82045F01F7279FA00C6E306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82045CA1F7279FA00C6E306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82045D91F7279FA00C6E306 /* ViewController.m in Sources */,
+				D82045D61F7279FA00C6E306 /* AppDelegate.m in Sources */,
+				D82045D31F7279FA00C6E306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82045E31F7279FA00C6E306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82045EC1F7279FA00C6E306 /* YouguReadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D82045EE1F7279FA00C6E306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82045F71F7279FA00C6E306 /* YouguReadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D82045E91F7279FA00C6E306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82045CD1F7279FA00C6E306 /* YouguRead */;
+			targetProxy = D82045E81F7279FA00C6E306 /* PBXContainerItemProxy */;
+		};
+		D82045F41F7279FA00C6E306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D82045CD1F7279FA00C6E306 /* YouguRead */;
+			targetProxy = D82045F31F7279FA00C6E306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D82045DA1F7279FA00C6E306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82045DB1F7279FA00C6E306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D82045DF1F7279FA00C6E306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82045E01F7279FA00C6E306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82045F91F7279FA00C6E306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D82045FA1F7279FA00C6E306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D82045FC1F7279FA00C6E306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9RQC3AJ9J;
+				INFOPLIST_FILE = YouguRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YG.YouguRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D82045FD1F7279FA00C6E306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9RQC3AJ9J;
+				INFOPLIST_FILE = YouguRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YG.YouguRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D82045FF1F7279FA00C6E306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9RQC3AJ9J;
+				INFOPLIST_FILE = YouguReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YG.YouguReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouguRead.app/YouguRead";
+			};
+			name = Debug;
+		};
+		D82046001F7279FA00C6E306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U9RQC3AJ9J;
+				INFOPLIST_FILE = YouguReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YG.YouguReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouguRead.app/YouguRead";
+			};
+			name = Release;
+		};
+		D82046021F7279FA00C6E306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U9RQC3AJ9J;
+				INFOPLIST_FILE = YouguReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YG.YouguReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YouguRead;
+			};
+			name = Debug;
+		};
+		D82046031F7279FA00C6E306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = U9RQC3AJ9J;
+				INFOPLIST_FILE = YouguReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YG.YouguReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YouguRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82045C91F7279FA00C6E306 /* Build configuration list for PBXProject "YouguRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82045F91F7279FA00C6E306 /* Debug */,
+				D82045FA1F7279FA00C6E306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82045FB1F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82045FC1F7279FA00C6E306 /* Debug */,
+				D82045FD1F7279FA00C6E306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D82045FE1F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82045FF1F7279FA00C6E306 /* Debug */,
+				D82046001F7279FA00C6E306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D82046011F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82046021F7279FA00C6E306 /* Debug */,
+				D82046031F7279FA00C6E306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82045C61F7279FA00C6E306 /* Project object */;
+}
