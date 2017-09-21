@@ -125,6 +125,10 @@
 		D82045D01F7279FA00C6E306 /* YouguRead */ = {
 			isa = PBXGroup;
 			children = (
+				D8DBB6921F734E130077DA8E /* Classes */,
+				D8DBB6A21F734E130077DA8E /* Resource */,
+				D8DBB6A31F734E130077DA8E /* Tool */,
+				D8DBB6A41F734E130077DA8E /* Vendor */,
 				D82045D41F7279FA00C6E306 /* AppDelegate.h */,
 				D82045D51F7279FA00C6E306 /* AppDelegate.m */,
 				D82045D71F7279FA00C6E306 /* ViewController.h */,
@@ -162,6 +166,154 @@
 				D82045F81F7279FA00C6E306 /* Info.plist */,
 			);
 			path = YouguReadUITests;
+			sourceTree = "<group>";
+		};
+		D8DBB6921F734E130077DA8E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBB6931F734E130077DA8E /* BookShelf */,
+				D8DBB6981F734E130077DA8E /* BookStore */,
+				D8DBB69D1F734E130077DA8E /* Mine */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8DBB6931F734E130077DA8E /* BookShelf */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBB6941F734E130077DA8E /* Controller */,
+				D8DBB6951F734E130077DA8E /* Model */,
+				D8DBB6961F734E130077DA8E /* View */,
+				D8DBB6971F734E130077DA8E /* ViewModel */,
+			);
+			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		D8DBB6941F734E130077DA8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DBB6951F734E130077DA8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DBB6961F734E130077DA8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DBB6971F734E130077DA8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D8DBB6981F734E130077DA8E /* BookStore */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBB6991F734E130077DA8E /* Controller */,
+				D8DBB69A1F734E130077DA8E /* Model */,
+				D8DBB69B1F734E130077DA8E /* View */,
+				D8DBB69C1F734E130077DA8E /* ViewModel */,
+			);
+			path = BookStore;
+			sourceTree = "<group>";
+		};
+		D8DBB6991F734E130077DA8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DBB69A1F734E130077DA8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DBB69B1F734E130077DA8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DBB69C1F734E130077DA8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D8DBB69D1F734E130077DA8E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D8DBB69E1F734E130077DA8E /* Controller */,
+				D8DBB69F1F734E130077DA8E /* Model */,
+				D8DBB6A01F734E130077DA8E /* View */,
+				D8DBB6A11F734E130077DA8E /* ViewModel */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D8DBB69E1F734E130077DA8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DBB69F1F734E130077DA8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DBB6A01F734E130077DA8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DBB6A11F734E130077DA8E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D8DBB6A21F734E130077DA8E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D8DBB6A31F734E130077DA8E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D8DBB6A41F734E130077DA8E /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -598,6 +750,7 @@
 				D82045FD1F7279FA00C6E306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D82045FE1F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguReadTests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +759,7 @@
 				D82046001F7279FA00C6E306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D82046011F7279FA00C6E306 /* Build configuration list for PBXNativeTarget "YouguReadUITests" */ = {
 			isa = XCConfigurationList;
@@ -614,6 +768,7 @@
 				D82046031F7279FA00C6E306 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
