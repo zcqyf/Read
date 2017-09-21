@@ -12,6 +12,9 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
+
 // NSUserDefaults
 #define YGUserDefaults [NSUserDefaults standardUserDefaults]
 
@@ -24,5 +27,7 @@
 #define YGColor(r, g, b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1.0f]
 #define YGAColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
+// UIFont
+#define YGFont(fontName,font)    [UIFont fontWithName:(fontName) size:(font)]
 
 #endif /* YGPrefixHeader_pch */

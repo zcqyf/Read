@@ -36,7 +36,7 @@ NSString *const YGTabBarItemSelectedImage = @"YGTabBarItemSelectedImage";
 /**
  *  设置自定义 tabBar。
  */
-- (void)setUpTabBar {
+- (void)setupTabBar {
     
 }
 
@@ -47,7 +47,7 @@ NSString *const YGTabBarItemSelectedImage = @"YGTabBarItemSelectedImage";
 }
 
 - (void)setViewControllers:(NSArray<__kindof UIViewController *> *)viewControllers {
-    
+    //TODO 此段代码的意思？
     if (_viewControllers && _viewControllers.count) {
         for (UIViewController *viewController in _viewControllers) {
             [viewController willMoveToParentViewController:nil];

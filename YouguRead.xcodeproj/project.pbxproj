@@ -20,6 +20,7 @@
 		D8D6A38F1F73A17E003C098C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D6A3891F73A17E003C098C /* Assets.xcassets */; };
 		D8D6A3901F73A17E003C098C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D6A38A1F73A17E003C098C /* LaunchScreen.storyboard */; };
 		D8D6A3911F73A17E003C098C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D6A38C1F73A17E003C098C /* Main.storyboard */; };
+		D8D6A3951F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3941F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m */; };
 		D8DBB6A91F737B4A0077DA8E /* YGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBB6A81F737B4A0077DA8E /* YGTabBarController.m */; };
 		D8DBB6AC1F737CFB0077DA8E /* YGTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBB6AB1F737CFB0077DA8E /* YGTabBarControllerConfig.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		D8D6A3891F73A17E003C098C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8D6A38B1F73A17E003C098C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8D6A38D1F73A17E003C098C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8D6A3931F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		D8D6A3941F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		D8DBB6A71F737B4A0077DA8E /* YGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTabBarController.h; sourceTree = "<group>"; };
 		D8DBB6A81F737B4A0077DA8E /* YGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTabBarController.m; sourceTree = "<group>"; };
 		D8DBB6AA1F737CFB0077DA8E /* YGTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTabBarControllerConfig.h; sourceTree = "<group>"; };
@@ -192,6 +195,15 @@
 				D8D6A38C1F73A17E003C098C /* Main.storyboard */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		D8D6A3921F73A701003C098C /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				D8D6A3931F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.h */,
+				D8D6A3941F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = FDFullscreenPopGesture;
 			sourceTree = "<group>";
 		};
 		D8DBB6921F734E130077DA8E /* Classes */ = {
@@ -345,6 +357,7 @@
 		D8DBB6A41F734E130077DA8E /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				D8D6A3921F73A701003C098C /* FDFullscreenPopGesture */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
@@ -561,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D6A3951F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				D8D6A3781F738CD4003C098C /* YGBookShelfController.m in Sources */,
 				D8D6A37E1F738CFC003C098C /* YGMineController.m in Sources */,
 				D8D6A38E1F73A17E003C098C /* AppDelegate.m in Sources */,

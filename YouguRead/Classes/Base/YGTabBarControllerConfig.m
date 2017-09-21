@@ -10,6 +10,7 @@
 #import "YGBookStoreController.h"
 #import "YGBookShelfController.h"
 #import "YGMineController.h"
+#import "YGBaseNavigationController.h"
 
 @interface YGTabBarControllerConfig ()
 
@@ -45,12 +46,18 @@
 - (NSArray *)childViewControllers {
     //书城
     YGBookStoreController *bookStore = [YGBookStoreController new];
+    bookStore.title = @"书城";
+    YGBaseNavigationController *nav1 = [[YGBaseNavigationController alloc] initWithRootViewController:bookStore];
     //书架
     YGBookShelfController *bookShelf = [YGBookShelfController new];
+    bookShelf.title = @"书架";
+    YGBaseNavigationController *nav2 = [[YGBaseNavigationController alloc] initWithRootViewController:bookShelf];
     //我的
     YGMineController *mine = [YGMineController new];
+    mine.title = @"我的";
+    YGBaseNavigationController *nav3 = [[YGBaseNavigationController alloc] initWithRootViewController:mine];
     
-    NSArray *controllers = @[bookStore, bookShelf, mine];
+    NSArray *controllers = @[nav1, nav2, nav3];
     
     return controllers;
 }

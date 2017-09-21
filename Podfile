@@ -18,7 +18,6 @@ target 'YouguRead' do
   pod 'IQKeyboardManager', '4.0.13'
   pod 'RealReachability', '1.1.9'
   pod 'SSZipArchive', '2.0.7'
-  pod 'FDFullscreenPopGesture', '1.1'
   #pod 'AFNetworking', '3.1.0'
 end
 

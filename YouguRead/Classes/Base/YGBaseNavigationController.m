@@ -17,17 +17,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
 }
 
 #pragma mark - Public Method
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    // TODO 设置位置有待改善
+    [self setupNavigationBarAppearance];
     
+    if (self.viewControllers.count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
+        viewController.fd_interactivePopMaxAllowedInitialDistanceToLeftEdge = CGRectGetWidth(YGScreenBounds)/3;
+        
+    }
     
+    [super pushViewController:viewController animated:YES];
 }
 
 #pragma mark - 设置全局的导航栏属性
-- (void)setUpNavigationBarAppearance {
+- (void)setupNavigationBarAppearance {
     
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    
+    NSDictionary *textAttributes = @{
+                                     NSFontAttributeName:YGFont(@"Noteworthy-Bold", 18),
+                                     NSForegroundColorAttributeName: [UIColor whiteColor]
+                                     };
+    
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
+    navigationBarAppearance.tintColor = [UIColor whiteColor];
+    navigationBarAppearance.barTintColor = YGColor(80, 189, 203);
+}
+
+#pragma mark - UIStatusBar
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 - (void)didReceiveMemoryWarning {

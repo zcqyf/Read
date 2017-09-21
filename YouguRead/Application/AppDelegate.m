@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //设置根控制器
-    [self setUpRootViewController];
+    [self setupRootViewController];
     
     return YES;
 }
@@ -27,7 +27,7 @@
 /**
  *  设置根控制器
  */
-- (void)setUpRootViewController {
+- (void)setupRootViewController {
     
     _window = [[UIWindow alloc] initWithFrame:YGScreenBounds];
     _window.backgroundColor = [UIColor whiteColor];
