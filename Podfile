@@ -15,6 +15,9 @@ target 'YouguRead' do
   pod 'FMDB', '2.7.2'
   pod 'MBProgressHUD', '1.0.0'
   pod 'YTKNetwork', '2.0.4'
+  pod 'IQKeyboardManager', '4.0.13'
+  pod 'RealReachability', '1.1.9'
+  pod 'SSZipArchive', '2.0.7'
   #pod 'AFNetworking', '3.1.0'
 end
 
