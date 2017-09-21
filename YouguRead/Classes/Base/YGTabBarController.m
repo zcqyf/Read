@@ -47,7 +47,7 @@ NSString *const YGTabBarItemSelectedImage = @"YGTabBarItemSelectedImage";
 }
 
 - (void)setViewControllers:(NSArray<__kindof UIViewController *> *)viewControllers {
-    //TODO 此段代码的意思？
+    // TODO 此段代码的意思？
     if (_viewControllers && _viewControllers.count) {
         for (UIViewController *viewController in _viewControllers) {
             [viewController willMoveToParentViewController:nil];
@@ -58,6 +58,7 @@ NSString *const YGTabBarItemSelectedImage = @"YGTabBarItemSelectedImage";
     
     if (viewControllers && [viewControllers isKindOfClass:[NSArray class]]) {
         
+        // TODO NSException的作用?
         if ((!_tabBarItemsAttributes) || (_tabBarItemsAttributes.count != viewControllers.count)) {
             [NSException raise:@"YGTabBarController" format:@"设置_tabBarItemsAttributes属性时，确保元素个数与控制器的个数相同，并在方法`-setViewControllers:`之前设置"];
         }
@@ -105,6 +106,8 @@ NSString *const YGTabBarItemSelectedImage = @"YGTabBarItemSelectedImage";
         selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         viewController.tabBarItem.selectedImage = selectedImage;
     }
+    
+    // TODO 调整位置？
     if (self.shouldCustomizeImageInsets) {
         viewController.tabBarItem.imageInsets = self.imageInsets;
     }

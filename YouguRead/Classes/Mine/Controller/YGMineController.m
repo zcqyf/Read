@@ -21,7 +21,7 @@
 }
 
 - (void)setupUI {
-    
+    self.view.backgroundColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning {

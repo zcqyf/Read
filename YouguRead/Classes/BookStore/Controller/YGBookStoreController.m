@@ -16,9 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    
+    [self setupUI];
+}
+
+- (void)setupUI {
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 - (void)didReceiveMemoryWarning {

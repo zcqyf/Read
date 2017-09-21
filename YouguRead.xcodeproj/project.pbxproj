@@ -21,6 +21,12 @@
 		D8D6A3901F73A17E003C098C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D6A38A1F73A17E003C098C /* LaunchScreen.storyboard */; };
 		D8D6A3911F73A17E003C098C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D6A38C1F73A17E003C098C /* Main.storyboard */; };
 		D8D6A3951F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3941F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m */; };
+		D8D6A39E1F73AF46003C098C /* YGInterfacedConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A39D1F73AF46003C098C /* YGInterfacedConst.m */; };
+		D8D6A3A11F73B33C003C098C /* YGBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3A01F73B33C003C098C /* YGBaseRequest.m */; };
+		D8D6A3A41F73B34E003C098C /* YGBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3A31F73B34E003C098C /* YGBatchRequest.m */; };
+		D8D6A3A71F73B35C003C098C /* YGChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3A61F73B35C003C098C /* YGChainRequest.m */; };
+		D8D6A3AA1F73B374003C098C /* YGHTTPError.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3A91F73B374003C098C /* YGHTTPError.m */; };
+		D8D6A3AD1F73B38A003C098C /* YGJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D6A3AC1F73B38A003C098C /* YGJSONModel.m */; };
 		D8DBB6A91F737B4A0077DA8E /* YGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBB6A81F737B4A0077DA8E /* YGTabBarController.m */; };
 		D8DBB6AC1F737CFB0077DA8E /* YGTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DBB6AB1F737CFB0077DA8E /* YGTabBarControllerConfig.m */; };
 /* End PBXBuildFile section */
@@ -71,6 +77,19 @@
 		D8D6A38D1F73A17E003C098C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8D6A3931F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		D8D6A3941F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		D8D6A39A1F73AE39003C098C /* YGConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGConfig.h; sourceTree = "<group>"; };
+		D8D6A39C1F73AF46003C098C /* YGInterfacedConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGInterfacedConst.h; sourceTree = "<group>"; };
+		D8D6A39D1F73AF46003C098C /* YGInterfacedConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGInterfacedConst.m; sourceTree = "<group>"; };
+		D8D6A39F1F73B33C003C098C /* YGBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGBaseRequest.h; sourceTree = "<group>"; };
+		D8D6A3A01F73B33C003C098C /* YGBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGBaseRequest.m; sourceTree = "<group>"; };
+		D8D6A3A21F73B34E003C098C /* YGBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGBatchRequest.h; sourceTree = "<group>"; };
+		D8D6A3A31F73B34E003C098C /* YGBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGBatchRequest.m; sourceTree = "<group>"; };
+		D8D6A3A51F73B35C003C098C /* YGChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGChainRequest.h; sourceTree = "<group>"; };
+		D8D6A3A61F73B35C003C098C /* YGChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGChainRequest.m; sourceTree = "<group>"; };
+		D8D6A3A81F73B374003C098C /* YGHTTPError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHTTPError.h; sourceTree = "<group>"; };
+		D8D6A3A91F73B374003C098C /* YGHTTPError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHTTPError.m; sourceTree = "<group>"; };
+		D8D6A3AB1F73B38A003C098C /* YGJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGJSONModel.h; sourceTree = "<group>"; };
+		D8D6A3AC1F73B38A003C098C /* YGJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGJSONModel.m; sourceTree = "<group>"; };
 		D8DBB6A71F737B4A0077DA8E /* YGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTabBarController.h; sourceTree = "<group>"; };
 		D8DBB6A81F737B4A0077DA8E /* YGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTabBarController.m; sourceTree = "<group>"; };
 		D8DBB6AA1F737CFB0077DA8E /* YGTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTabBarControllerConfig.h; sourceTree = "<group>"; };
@@ -204,6 +223,47 @@
 				D8D6A3941F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		D8D6A3961F73AE16003C098C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D8D6A3971F73AE16003C098C /* Configure */ = {
+			isa = PBXGroup;
+			children = (
+				D8D6A39A1F73AE39003C098C /* YGConfig.h */,
+				D8D6A39C1F73AF46003C098C /* YGInterfacedConst.h */,
+				D8D6A39D1F73AF46003C098C /* YGInterfacedConst.m */,
+			);
+			path = Configure;
+			sourceTree = "<group>";
+		};
+		D8D6A3981F73AE16003C098C /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				D8D6A39F1F73B33C003C098C /* YGBaseRequest.h */,
+				D8D6A3A01F73B33C003C098C /* YGBaseRequest.m */,
+				D8D6A3A21F73B34E003C098C /* YGBatchRequest.h */,
+				D8D6A3A31F73B34E003C098C /* YGBatchRequest.m */,
+				D8D6A3A51F73B35C003C098C /* YGChainRequest.h */,
+				D8D6A3A61F73B35C003C098C /* YGChainRequest.m */,
+				D8D6A3A81F73B374003C098C /* YGHTTPError.h */,
+				D8D6A3A91F73B374003C098C /* YGHTTPError.m */,
+				D8D6A3AB1F73B38A003C098C /* YGJSONModel.h */,
+				D8D6A3AC1F73B38A003C098C /* YGJSONModel.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		D8D6A3991F73AE16003C098C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D8DBB6921F734E130077DA8E /* Classes */ = {
@@ -350,6 +410,10 @@
 		D8DBB6A31F734E130077DA8E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				D8D6A3961F73AE16003C098C /* Category */,
+				D8D6A3971F73AE16003C098C /* Configure */,
+				D8D6A3981F73AE16003C098C /* NetWork */,
+				D8D6A3991F73AE16003C098C /* Utils */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -576,14 +640,20 @@
 			files = (
 				D8D6A3951F73A701003C098C /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				D8D6A3781F738CD4003C098C /* YGBookShelfController.m in Sources */,
+				D8D6A3A11F73B33C003C098C /* YGBaseRequest.m in Sources */,
+				D8D6A3AD1F73B38A003C098C /* YGJSONModel.m in Sources */,
+				D8D6A3A71F73B35C003C098C /* YGChainRequest.m in Sources */,
+				D8D6A39E1F73AF46003C098C /* YGInterfacedConst.m in Sources */,
 				D8D6A37E1F738CFC003C098C /* YGMineController.m in Sources */,
 				D8D6A38E1F73A17E003C098C /* AppDelegate.m in Sources */,
 				D8D6A3811F738D2D003C098C /* YGBaseViewController.m in Sources */,
 				D8DBB6A91F737B4A0077DA8E /* YGTabBarController.m in Sources */,
+				D8D6A3A41F73B34E003C098C /* YGBatchRequest.m in Sources */,
 				D82045D31F7279FA00C6E306 /* main.m in Sources */,
 				D8D6A3841F738E83003C098C /* YGBaseNavigationController.m in Sources */,
 				D8D6A37B1F738CE9003C098C /* YGBookStoreController.m in Sources */,
 				D8DBB6AC1F737CFB0077DA8E /* YGTabBarControllerConfig.m in Sources */,
+				D8D6A3AA1F73B374003C098C /* YGHTTPError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

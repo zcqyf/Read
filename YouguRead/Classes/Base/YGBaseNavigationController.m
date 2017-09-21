@@ -41,17 +41,17 @@
     
     NSDictionary *textAttributes = @{
                                      NSFontAttributeName:YGFont(@"Noteworthy-Bold", 18),
-                                     NSForegroundColorAttributeName: [UIColor whiteColor]
+                                     NSForegroundColorAttributeName: [UIColor blackColor]
                                      };
     
     [navigationBarAppearance setTitleTextAttributes:textAttributes];
-    navigationBarAppearance.tintColor = [UIColor whiteColor];
-    navigationBarAppearance.barTintColor = YGColor(80, 189, 203);
+    navigationBarAppearance.tintColor = [UIColor grayColor];
+    navigationBarAppearance.barTintColor = [UIColor whiteColor];
 }
 
 #pragma mark - UIStatusBar
 - (UIStatusBarStyle)preferredStatusBarStyle {
-    return UIStatusBarStyleLightContent;
+    return UIStatusBarStyleDefault;
 }
 
 - (void)didReceiveMemoryWarning {
